@@ -1,0 +1,24 @@
+#train: /content/dataset/dataset/images/train
+#val: /content/dataset/dataset/images/val
+#test: /content/dataset/dataset/images/test
+
+# Classes
+#nc: 15
+#names: ['Helmet', 'IFR suit', 'No Gloves', 'No Helmet', 'No IFR', 'No Safety Boots', 'No Safety Glass', 'PPE-Violation', 'People', 'Safety Boots', 'Safety Glass', 'Safety Golves', 'work_height', 'work_low', 'worker']
+
+roboflow:
+  workspace: manab-jyoti-goswami-lqvan
+  project: ppe-detection-ykpqj
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/manab-jyoti-goswami-lqvan/ppe-detection-ykpqj/dataset/
+  
+  train: C:/Users/zeref/Downloads/Yolo/dataset/train/images
+val: C:/Users/zeref/Downloads/Yolo/dataset/valid/images
+test: C:/Users/zeref/Downloads/Yolo/dataset/test/images
+
+nc: 15
+names: [
+  'Helmet', 'IFR suit', 'No Gloves', 'No Helmet', 'No IFR', 'No Safety Boots', 'No Safety Glass',
+  'PPE-Violation', 'People', 'Safety Boots', 'Safety Glass', 'Safety Golves',
+  'work_height', 'work_low', 'worker']
