@@ -53,7 +53,7 @@ https://universe.roboflow.com/manab-jyoti-goswami-lqvan/ppe-detection-ykpqj
 git clone https://github.com/jatinpochiraju/ppev2.git
 cd ppev2
 
- Train Model
+Train Model
 python train_ppe.py
 
 Output:
@@ -61,5 +61,6 @@ runs/detect/train/weights/best.pt
  
 Run Detection
 python webcam.py
+
 Uses webcam (VIDEO_SRC = 0)
 Press ESC to stop
